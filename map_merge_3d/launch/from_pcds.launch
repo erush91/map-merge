@@ -1,6 +1,6 @@
 <launch>
-  <arg name="pcd1" default="robot1.pcd"/>
-  <arg name="pcd2" default="robot2.pcd"/>
+  <arg name="pcd1" default="/home/erush91/catkin_ws/src/map-merge/map_merge_3d/data/depth_r1_t1.pcd"/>
+  <arg name="pcd2" default="/home/erush91/catkin_ws/src/map-merge/map_merge_3d/data/depth_r1_t2.pcd"/>
   <arg name="rviz" default="false"/>
 
   <include file="$(find map_merge_3d)/launch/map_merge.launch"/>
